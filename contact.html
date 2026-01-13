@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IO - Contact Us</title>
+    <link rel="icon" href="imgs/logo.png" type="image/png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <img class="logo" src="imgs/logo.png" alt="Logo">
+            <div class="links">
+                <span class="icon" aria-label="Toggle Navigation Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </span>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#services">Solutions</a></li>
+                    <li><a href="index.html#portfolio">Our Work</a></li>
+                    <li><a href="about.html">Company</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact-page">
+        <div class="container">
+            <h2 class="special-heading">Contact Us</h2>
+            <p>Get in touch with us</p>
+            <div class="contact-form-container">
+                <form id="contactForm">
+                    <div class="input-group">
+                        <input type="text" id="name" required placeholder=" ">
+                        <label for="name">Your Name</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="email" name="email" id="email" placeholder=" " required>
+                        <label for="email">Your Email</label>
+                    </div>
+                    <div class="input-group">
+                        <textarea name="message" id="message" placeholder=" " required></textarea>
+                        <label for="message">Your Message</label>
+                    </div>
+                    <button type="submit">Send Message</button>
+                    <!-- Status message container -->
+                    <p id="form-status" style="margin-top: 10px; font-weight: bold;"></p>
+                </form>
+                <div class="social-links-form">
+                    <p>Or find us on social networks:</p>
+                    <div class="icons">
+                        <i class="fab fa-youtube"></i>
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-twitter"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Start Footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="box">
+                <h3>COMPANY</h3>
+                <ul class="links">
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="#">All Solutions</a></li>
+                    <li><a href="#">Case Studies</a></li>
+                    <li><a href="#">The Method</a></li>
+                    <li><a href="contact.html">Start Project</a></li>
+                </ul>
+            </div>
+            <div class="box">
+                <h3>INSIGHTS</h3>
+                <ul class="links">
+                    <li><a href="#">Why AI Agents?</a></li>
+                    <li><a href="#">Why Custom Web?</a></li>
+                    <li><a href="blog.html">Blog & Articles</a></li>
+                    <li><a href="career.html">Careers</a></li>
+                </ul>
+            </div>
+            <div class="box">
+                <h3>NEWSLETTER</h3>
+                <p style="color: #b9b9b9; line-height: 1.6; margin-bottom: 15px;">Subscribe to get the latest insights
+                    and news.</p>
+                <form action="#" style="display: flex; gap: 10px;">
+                    <input type="email" placeholder="Your Email"
+                        style="padding: 10px; border: none; border-radius: 4px; width: 100%;">
+                    <button type="submit"
+                        style="padding: 10px; background: var(--main-color); color: white; border: none; border-radius: 4px; cursor: pointer;"><i
+                            class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+            <div class="box">
+                <h3>LEGAL & SOCIAL</h3>
+                <ul class="links">
+                    <li><a href="terms.html">Terms of Service</a></li>
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                </ul>
+                <div class="social">
+                    <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="linkedin"><i
+                            class="fab fa-linkedin"></i></a>
+                    <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" class="twitter"><i
+                            class="fab fa-twitter"></i></a>
+                    <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="instagram"><i
+                            class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <p class="copyright">&copy; 2026 IO Agency. All Rights Reserved.</p>
+    </div>
+    <!-- End Footer -->
+    <span class="up">UP</span>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
